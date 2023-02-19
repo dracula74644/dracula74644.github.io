@@ -10,13 +10,12 @@
   })
 
   // Preloader
-  $(window).on('load', function () {
+
     if ($('#preloader').length) {
-      $('#preloader').delay(2).fadeOut('slow', function () {
+      $('#preloader').delay(3).fadeOut('slow', function () {
         $(this).remove();
       });
     }
-  });
 
   // Back to top button
   $(window).scroll(function() {
