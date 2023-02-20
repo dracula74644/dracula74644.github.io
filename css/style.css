@@ -689,6 +689,21 @@ a:hover {
   height: .7rem;
   background-color: #0078ff;
 }
+.cv{
+  background-color: #0078ff;
+  color:white;
+  padding:8px;
+  border-radius: 12px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+}
+.cv:hover{
+  transition: 0.2s;
+  background-color: white;
+  color:#0078ff;
+  border:1px solid #0078ff;
+}
+
 
 /*======================================
 //--//-->   SERVICES
