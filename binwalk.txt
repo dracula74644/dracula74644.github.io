@@ -1,0 +1,7 @@
+twsting#sk-proj-jGYcNkojTGO4BQgINNqat1FgNtiaWEnuUoA3A2xgPExchA6Sybo_
+5TCgcK3ElSuLiNNiSes0vOT3BlbkFJt30x-0JnyjHw0mh-TcKJEWV1M4osEYhePMBZ_
+IPMieUltoZ6WCWhVc-ncRGubNJl8Uj5ZOLaEA
+
+Import-Module PowerShellAI
+$env:OpenAIKey = 'sk-
+Get-GPT3Completion
