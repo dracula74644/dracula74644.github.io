@@ -1,0 +1,24 @@
+@echo off
+setlocal EnableDelayedExpansion
+
+set API_KEY=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
+
+echo AI CLI started
+echo Type exit to quit
+echo.
+
+:loop
+set /p QUESTION=You: 
+
+if /i "%QUESTION%"=="exit" exit
+
+REM Escape quotes for JSON
+set ESCAPED=!QUESTION:"=\"!
+
+curl https://api.openai.com/v1/responses ^
+ -H "Content-Type: application/json" ^
+ -H "Authorization: Bearer %API_KEY%" ^
+ -d "{ \"model\":\"gpt-5-nano\", \"input\":\"!ESCAPED!\" }"
+
+echo.
+goto loop
