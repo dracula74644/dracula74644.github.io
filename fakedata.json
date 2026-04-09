@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Bug Bounty Course",
+    "description": "Learn web hacking",
+    "url": "https://yourportfolio.com/course",
+    "image_link": "https://via.placeholder.com/150",
+    "price": 0,
+    "availability": "in stock",
+    "category": "education"
+  },
+  {
+    "id": "2",
+    "title": "Security Blog",
+    "description": "Writeups and findings",
+    "url": "https://yourportfolio.com/blog",
+    "image_link": "https://via.placeholder.com/150",
+    "price": 0,
+    "availability": "in stock",
+    "category": "content"
+  },
+  {
+    "id": "3",
+    "title": "Pentest Service",
+    "description": "Web app security testing",
+    "url": "https://yourportfolio.com/services",
+    "image_link": "https://via.placeholder.com/150",
+    "price": 100,
+    "availability": "in stock",
+    "category": "services"
+  }
+]
