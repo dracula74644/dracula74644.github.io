@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <item>
+    <id>1</id>
+    <title>Portfolio Project</title>
+    <description>My hacking projects</description>
+    <url>https://vulgone.com/projects</url>
+    <image_link>https://via.placeholder.com/150</image_link>
+    <price>0</price>
+    <availability>in stock</availability>
+    <category>portfolio</category>
+  </item>
+
+  <item>
+    <id>2</id>
+    <title>Bug Bounty Writeups</title>
+    <description>Real vulnerabilities and reports</description>
+    <url>https://vulgone.com/blog</url>
+    <image_link>https://via.placeholder.com/150</image_link>
+    <price>0</price>
+    <availability>in stock</availability>
+    <category>content</category>
+  </item>
+</items>
