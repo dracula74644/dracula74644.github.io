@@ -1,0 +1,33 @@
+<!-- Runtime / process context -->
+<object data="file:///proc/self/environ"></object>
+<object data="file:///proc/self/cmdline"></object>
+<object data="file:///proc/self/status"></object>
+<object data="file:///proc/self/mountinfo"></object>
+
+<!-- Container / cloud context -->
+<object data="file:///etc/hostname"></object>
+<object data="file:///etc/resolv.conf"></object>
+<object data="file:///etc/hosts"></object>
+<object data="file:///proc/version"></object>
+
+<!-- Application presence / deployment evidence -->
+<object data="file:///app/package.json"></object>
+<object data="file:///app/requirements.txt"></object>
+<object data="file:///app/Pipfile"></object>
+<object data="file:///app/composer.json"></object>
+<object data="file:///workspace/package.json"></object>
+
+<!-- Config existence (do not expose secrets; prove readable) -->
+<object data="file:///app/.env.example"></object>
+<object data="file:///app/config.yml"></object>
+<object data="file:///app/config.json"></object>
+<object data="file:///var/www/html/.env.example"></object>
+
+<!-- Logs / operational evidence -->
+<object data="file:///var/log/nginx/access.log"></object>
+<object data="file:///var/log/nginx/error.log"></object>
+<object data="file:///var/log/app.log"></object>
+
+<!-- Service identity -->
+<object data="file:///etc/os-release"></object>
+<object data="file:///etc/issue"></object>
